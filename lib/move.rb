@@ -14,6 +14,3 @@ def move(board, position, character = 'X')
   board[position] = character
 end
 
-def move(board, position, character)
-  board[position] = character
-end
