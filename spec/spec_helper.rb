@@ -18,7 +18,7 @@ def get_variable_from_file(file, variable)
 end
 
 def capture_puts
-  begin
+  begin()
     old_stdout = $stdout
     $stdout = StringIO.new('','w')
     yield
